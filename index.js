@@ -1,4 +1,5 @@
 // Write your solution in this file!
+<<<<<<< HEAD
 const driver = {}
 
 function updateDriverWithKeyAndValue(driver, key, value) {
@@ -19,4 +20,9 @@ function deleteFromDriverByKey(driver, key) {
 function destructivelyDeleteFromDriverByKey(driver, key) {
   delete driver[key]
   return driver
+=======
+function updateDriverWithKeyAndValue(driver, key, value) {
+  newDriver = driver
+  newDriver[key] = value
+>>>>>>> 2ae056db8e082dafe4c091f5dfe5973c758f32a5
 }
